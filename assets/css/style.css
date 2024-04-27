@@ -34,7 +34,7 @@
     margin-top: 299px;
 }
 
-.container .box-link{
+.container .btn-link{
     background: blue;
     width: 90%;
     text-align: center;
@@ -42,12 +42,15 @@
     padding: 1.5rem;
     border-radius: 50px;
     margin-bottom: 15px;
+    color: white;
+    transition: 0.2s ease-in-out
+    ;
 }
 
-.container .box-link a{
-    color: white;
-    font-weight: bold;
+.container .btn-link:hover{
+    background: black;
 }
+
 
 .container .development a{
     color: white;
