@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    margin-inline: auto;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('../img/banner-svg-sem-logo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 700px;
+}
+
+.container .box-logo{
+    width: 100%;
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ align-items: center;
+}
+.container .box-logo .logo-image{
+    width: 230px;
+    margin-top: 310px;
+}
+
+.container .box-link{
+    background: blue;
+    width: 90%;
+    text-align: center;
+    margin-top: 10px;
+    padding: 1.5rem;
+    border-radius: 50px;
+    margin-bottom: 15px;
+}
+
+.container .box-link a{
+    color: white;
+    font-weight: bold;
+}
+
+.container .development a{
+    color: white;
+    font-size: 0.8rem;
+}
+
+.container .development a strong{
+    color: rgb(47, 183, 224);
+}
